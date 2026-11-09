@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="mark-title">
+  <title id="mark-title">Access Lab mark</title>
+  <rect width="48" height="48" fill="#243b80"/>
+  <path d="M8 31 18 10h7l10 21h-7l-2-5H17l-2 5H8Zm11-10h5l-2.5-6L19 21Z" fill="#f4b942"/>
+  <path d="M10 37h28" stroke="#fff" stroke-width="2"/>
+</svg>

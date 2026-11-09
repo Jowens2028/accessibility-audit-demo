@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title">
+  <title id="title">Accessible design workshop illustration</title>
+  <rect width="1200" height="900" fill="#f4eedf"/>
+  <rect x="72" y="72" width="1056" height="756" fill="#e8e3d8"/>
+  <rect x="120" y="128" width="710" height="520" fill="#fff" stroke="#17213d" stroke-width="10"/>
+  <path d="M120 138a10 10 0 0 1 10-10h690a10 10 0 0 1 10 10v76H120Z" fill="#243b80"/>
+  <circle cx="166" cy="173" r="13" fill="#f4b942"/><circle cx="208" cy="173" r="13" fill="#fff"/><circle cx="250" cy="173" r="13" fill="#fff"/>
+  <rect x="164" y="254" width="276" height="32" fill="#243b80"/>
+  <rect x="164" y="313" width="582" height="15" fill="#aeb6ca"/>
+  <rect x="164" y="345" width="514" height="15" fill="#aeb6ca"/>
+  <rect x="164" y="405" width="270" height="154" fill="#f8f7f2" stroke="#243b80" stroke-width="5"/>
+  <rect x="458" y="405" width="288" height="154" fill="#f4eedf" stroke="#243b80" stroke-width="5"/>
+  <rect x="190" y="432" width="70" height="70" fill="#f4b942"/>
+  <rect x="282" y="438" width="120" height="12" fill="#243b80"/>
+  <rect x="282" y="463" width="94" height="10" fill="#6f7a90"/>
+  <rect x="486" y="436" width="230" height="14" fill="#243b80"/>
+  <rect x="486" y="466" width="194" height="11" fill="#6f7a90"/>
+  <rect x="486" y="497" width="210" height="38" fill="#fff" stroke="#243b80" stroke-width="4"/>
+  <rect x="481" y="492" width="220" height="48" fill="none" stroke="#f4b942" stroke-width="8"/>
+  <g transform="translate(155 697) rotate(-5)">
+    <rect width="500" height="106" rx="12" fill="#243b80"/>
+    <rect x="18" y="18" width="90" height="70" rx="8" fill="#fff"/>
+    <rect x="122" y="18" width="90" height="70" rx="8" fill="#fff"/>
+    <rect x="226" y="18" width="90" height="70" rx="8" fill="#fff"/>
+    <rect x="330" y="18" width="148" height="70" rx="8" fill="#f4b942"/>
+    <path d="m376 53 18 18 38-42" fill="none" stroke="#17213d" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <circle cx="930" cy="375" r="128" fill="#f4b942" stroke="#17213d" stroke-width="13"/>
+  <circle cx="930" cy="375" r="86" fill="#fff" stroke="#243b80" stroke-width="6"/>
+  <path d="m995 466 110 112" stroke="#17213d" stroke-width="31" stroke-linecap="round"/>
+  <path d="m888 378 29 30 62-72" fill="none" stroke="#243b80" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M866 655h236M866 690h165" stroke="#243b80" stroke-width="13" stroke-linecap="square"/>
+</svg>

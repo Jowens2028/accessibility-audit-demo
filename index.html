@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#243b80">
+    <meta name="description" content="A hands-on starter site for learning practical web accessibility review and remediation.">
+    <title>Access Lab — Signal Workshop</title>
+    <link rel="icon" href="brand-mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="Access Lab home">
+          <img src="brand-mark.svg" width="38" height="38" alt="">
+          <span>ACCESS <strong>LAB</strong></span>
+        </a>
+        <nav aria-label="Primary navigation">
+          <ul class="nav-list">
+            <li><a href="#why">Why access</a></li>
+            <li><a href="#checklist">Audit checklist</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a class="nav-cta" href="#feedback">Try the form <span aria-hidden="true">↘</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> A practical web accessibility lab</p>
+          <h1 id="hero-title">Make the web<br><span>work for everyone.</span></h1>
+          <p class="hero-intro">A small, hands-on field guide for spotting barriers, understanding their impact, and making useful fixes.</p>
+          <a class="button button-gold" href="#checklist">Explore the audit checklist <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-stamp" aria-label="Built for curious auditors">
+          <span class="stamp-ring" aria-hidden="true">A11Y</span>
+          <span class="stamp-caption">NOT A<br>CERTIFICATION</span>
+        </div>
+        <div class="hero-note"><span aria-hidden="true">01 / 04</span><span>Notice the barrier.<br>Understand the impact.</span></div>
+      </section>
+
+      <section class="intro content-wrap" id="why" aria-labelledby="why-title">
+        <div class="section-kicker"><span>01</span><span>Start with people</span></div>
+        <div class="intro-grid">
+          <h2 id="why-title">Access is part<br>of the design.</h2>
+          <div class="intro-copy">
+            <p>Accessibility means people can perceive, understand, navigate, and use a digital experience in different ways. It is not a final polish pass; it is part of making a site work.</p>
+            <p>Use this demo to practice noticing barriers before they become someone else’s roadblock. Automated tools can point to clues, but people and context help explain what matters.</p>
+          <a class="text-link" href="#statement">Read the accessibility statement <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <figure class="feature-figure">
+        <img src="accessibility-workshop.svg" alt="Navy-and-yellow browser window, keyboard key, magnifying glass, and check mark." width="1200" height="900">
+          <figcaption><span class="caption-mark" aria-hidden="true">FIG. A</span> Good audits connect an interface detail to a real person’s task.</figcaption>
+        </figure>
+      </section>
+
+      <section class="audit-band" id="checklist" aria-labelledby="checklist-title">
+        <div class="content-wrap audit-inner">
+          <div class="section-kicker section-kicker-light"><span>02</span><span>Look closer</span></div>
+          <div class="audit-heading">
+            <h2 id="checklist-title">A useful first pass.</h2>
+            <p>Move beyond “the tool found a problem.” Ask who is affected, where the barrier appears, and what change helps.</p>
+          </div>
+          <ol class="checklist">
+            <li><span class="check-number">01</span><div><h3>Check the structure</h3><p>Use headings in order and meaningful page landmarks so people can scan and jump around.</p></div><span class="check-status" aria-label="Checklist item">○</span></li>
+            <li><span class="check-number">02</span><div><h3>Test without a mouse</h3><p>Tab through controls, follow the focus indicator, and make sure nothing traps the keyboard.</p></div><span class="check-status" aria-label="Checklist item">○</span></li>
+            <li><span class="check-number">03</span><div><h3>Give controls context</h3><p>Label each form field, explain what is needed, and make errors easy to find and understand.</p></div><span class="check-status" aria-label="Checklist item">○</span></li>
+            <li><span class="check-number">04</span><div><h3>Inspect color and images</h3><p>Check text contrast and provide a useful text alternative when an image carries information.</p></div><span class="check-status" aria-label="Checklist item">○</span></li>
+          </ol>
+          <p class="tool-note"><strong>Tool note</strong> WAVE can identify many common issues, but an automated scan does not establish that a site is fully accessible.</p>
+        </div>
+      </section>
+
+      <section class="faq-section content-wrap" id="faq" aria-labelledby="faq-title">
+        <div class="section-kicker"><span>03</span><span>Keep learning</span></div>
+        <div class="faq-grid">
+          <div>
+            <h2 id="faq-title">Questions worth asking.</h2>
+            <p class="faq-lede">Accessibility is a practice. Start with a question, then test your assumption.</p>
+          </div>
+          <div class="faq-list">
+            <details>
+              <summary>Does a clean automated scan mean the page is accessible?</summary>
+              <div class="faq-answer"><p>No. Automated tools catch only some barriers. Also test keyboard interaction, zoom and reflow, content clarity, and assistive-technology use where possible.</p></div>
+            </details>
+            <details>
+              <summary>Why does keyboard access matter?</summary>
+              <div class="faq-answer"><p>Some people navigate without a mouse, including keyboard users and people using switch devices or voice input. A visible focus indicator helps show where interaction will happen.</p></div>
+            </details>
+            <details>
+              <summary>What makes alternative text useful?</summary>
+              <div class="faq-answer"><p>It depends on the image’s purpose. Describe the information or function that matters in context; leave a decorative image with empty alternative text so it does not add noise.</p></div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="feedback-section" id="feedback" aria-labelledby="feedback-title">
+        <div class="content-wrap feedback-grid">
+          <div class="feedback-copy">
+            <div class="section-kicker"><span>04</span><span>Try the interaction</span></div>
+            <h2 id="feedback-title">Share one thing<br>you noticed.</h2>
+            <p>This practice form stays in your browser. It does not send or store your information.</p>
+            <p class="privacy-note"><span aria-hidden="true">✳</span> Labels, instructions, and helpful error messages belong together.</p>
+          </div>
+          <form id="feedback-form" class="feedback-form" novalidate>
+            <div id="error-summary" class="error-summary" tabindex="-1" aria-labelledby="error-title" hidden>
+              <h3 id="error-title">There’s something to fix</h3>
+              <ul id="error-list"></ul>
+            </div>
+            <div class="form-field">
+              <label for="visitor-name">Your name <span>(required)</span></label>
+              <input id="visitor-name" name="name" autocomplete="name" required aria-describedby="name-hint name-error">
+              <p class="field-hint" id="name-hint">A name or nickname is fine.</p>
+              <p class="field-error" id="name-error" hidden></p>
+            </div>
+            <div class="form-field">
+              <label for="visitor-email">Email address <span>(required)</span></label>
+              <input id="visitor-email" name="email" type="email" autocomplete="email" required aria-describedby="email-hint email-error">
+              <p class="field-hint" id="email-hint">Use a valid email format, like name@example.com.</p>
+              <p class="field-error" id="email-error" hidden></p>
+            </div>
+            <div class="form-field">
+              <label for="visitor-note">What did you notice? <span>(required)</span></label>
+              <textarea id="visitor-note" name="message" rows="4" required aria-describedby="message-hint message-error"></textarea>
+              <p class="field-hint" id="message-hint">Name one detail and who it might affect.</p>
+              <p class="field-error" id="message-error" hidden></p>
+            </div>
+            <button class="button button-blue" type="submit">Check my response <span aria-hidden="true">→</span></button>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="statement content-wrap" id="statement" aria-labelledby="statement-title">
+        <div class="statement-label">ACCESSIBILITY<br>STATEMENT</div>
+        <div class="statement-content">
+          <h2 id="statement-title">An honest starting point.</h2>
+          <p>Access Lab is a student learning demo, not a certification or a claim of full conformance. It was designed with semantic HTML, keyboard operation, visible focus, responsive text, descriptive image alternatives, and programmatic form feedback in mind.</p>
+          <p>If you find a barrier, use the feedback form above to describe the page area, the issue, and the effect on your task. The example form is local-only and will not transmit that message.</p>
+          <a class="text-link" href="#top">Return to the top <span aria-hidden="true">↑</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="content-wrap footer-inner">
+        <a class="brand brand-footer" href="#top"><img src="brand-mark.svg" width="32" height="32" alt=""><span>ACCESS <strong>LAB</strong></span></a>
+        <p>Practice noticing. Practice fixing.</p>
+        <a href="#statement">Accessibility statement</a>
+        <span class="footer-code">FIELD NOTE 04 / 04</span>
+      </div>
+    </footer>
+  </body>
+</html>
