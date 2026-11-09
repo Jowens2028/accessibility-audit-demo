@@ -2,6 +2,8 @@
 
 A small, framework-free student demo for practicing accessibility review and targeted fixes. The site includes semantic page structure, a keyboard-operable FAQ, responsive layout, an original illustration, and a feedback form with field-specific errors and an error summary.
 
+Public repository: [Jowens2028/accessibility-audit-demo](https://github.com/Jowens2028/accessibility-audit-demo).
+
 ## Run locally
 
 Requires Node.js 20 or newer. From this directory, run:
